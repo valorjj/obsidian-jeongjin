@@ -218,9 +218,11 @@ endTime: 59
 
 ```java
 public class Solution {
+    
+    // 정보를 담고 있는 클래스를 만든다.
     private static class Order {
-        public final int time;
-        public final int duration;
+        public final int time;  // 주문이 들어가는 시점
+        public final int duration; // 제조에 걸리는 시간
 
         public Order(int time, int duration) {
             this.time = time;
@@ -228,27 +230,39 @@ public class Solution {
         }
     }
 
+    // 
     public int solution(int[] menu, int[] order, int k) {
         Order[] orders = new Order[order.length];
         for (int i = 0; i < order.length; i++) {
             orders[i] = new Order(k * i, menu[order[i]]);
         }
 
-        int max = 0;
-
-        int time = 0;
-        int end = 0;
+        int max = 0; // 최대 기다리는 인원
+        int time = 0; // 현재 시간
+        int end = 0; // 현재 작업 인덱스
+        // start 는 작업의 시작
         for (int start = 0; start < orders.length; start++) {
             Order o = orders[start];
+            
+            // [예외처리] 
+            // 작업이 완료되는 시간이 현재시간보다 작다면
+            // 현재시간과 싱크를 맞춘다.
             if (time < o.time) {
                 time = o.time;
             }
-
+            
+            // 현재 시간에 작업에 걸리는 소요시간을 더한다.
             time += o.duration;
+            
+            // 작업 진행
+            // end 가 가장 마지막으로 작업한 작업의 인덱스를 나타낸다.
             while (end < orders.length && orders[end].time < time) {
                 end++;
             }
+            
+            // 작업 시작 인덱스, 작업 끝 인덱스의 차이가 기다리는 사람의 수
             int count = end - start;
+            
             if (count > max) {
                 max = count;
             }
@@ -256,4 +270,5 @@ public class Solution {
         return max;
     }
 }
+
 ```
