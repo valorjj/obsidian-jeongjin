@@ -9,5 +9,7 @@
   "obsidian-admonition",
   "obsidian-icon-folder",
   "tag-wrangler",
-  "obsidian-linter"
+  "obsidian-linter",
+  "highlightr-plugin",
+  "cm-editor-syntax-highlight-obsidian"
 ]
