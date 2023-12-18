@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Data Structure/programmers pccp sample 2th - 3rd.md",
+                "file": "Data Structure/Deque.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Data Structure/programmers pccp sample 2th - 3rd.md",
+                "file": "Data Structure/Deque.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Data Structure/programmers pccp sample 2th - 3rd.md",
+                "file": "Data Structure/Deque.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Data Structure/programmers pccp sample 2th - 3rd.md"
+                "file": "Data Structure/Deque.md"
               }
             }
           }
@@ -151,9 +151,9 @@
   },
   "active": "41f59a6a9e12e5d2",
   "lastOpenFiles": [
-    "Data Structure/Deque.md",
-    "Data Structure/programmers pccp sample 2th - 3rd.md",
     "Data Structure/Data Structure Index.md",
+    "Data Structure/programmers pccp sample 2th - 3rd.md",
+    "Data Structure/Deque.md",
     "README.md.md",
     "images/Pasted image 20231218202224.png",
     "programmers pccp sample 2th - 3rd.md",

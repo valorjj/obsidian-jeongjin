@@ -6,27 +6,80 @@
 
 ```java
 import java.util.*;
+
 class Solution {
     public int solution(int[] menu, int[] order, int k) {
         int answer = Integer.MIN_VALUE;
-        int curTime = 0, completeTime;
-        Queue<Integer> queue = new ArrayDeque<>(); // 대기큐, 소요시간을 가짐
-        completeTime = curTime+menu[order[0]]; // 첫 번째 완료시간 설정
-        for(int idx=1; idx < order.length; idx++) {
-	        // 주문이 들어왔다는 것은 k 만큼의 시간이 지난것과 동일하므로 k 를 더한다.
-            curTime += k;
-            // 주문 받기전에 완료된 내역들 제거하며 완료시간 변경
-            // 완료는 됐으나, 대기하고 있는게 없는 경우
-            while(completeTime <= curTime && !queue.isEmpty()) {
+        int currentTime = 0; // 총 누적 시간
+        int completeTime = 0; // 주문을 완료할 때까지 걸리는 시간
+        
+        Queue<Integer> queue = new ArrayDeque<>();
+        completeTime = currentTime + menu[order[0]];
+        
+        // order 를 기준으로 반복문을 작성합니다.
+        
+        for(int idx=1; idx< order.length; idx++) {
+            // 조건문을 만나기전에 시간의 흐름을 더합니다.
+            // order 를 기준으로 했기 때문에 매번 k 만큼이 더해져야 합니다.
+            currentTime += k;
+    
+            // queue 에 주문이 아직 남아 있는 경우와
+            // 아무런 주문이 없는 경우 두가지를 생각해봅시다.
+            
+            // queue 에 처리되지 않은 주문이 남아 있는 경우는
+            // 현재 처리 중인 작업이 있다는 뜻 입니다.
+            // order 기준으로 idx * k 로 기준이 나누어 떨어지지 않으니
+            // 처리시간, 현재시간을 기준으로 분기점을 만들어야 합니다.
+            
+            // 완료까지 걸리는 시간이 idx * k 로 나타나는 현재시간보다 적은 경우
+            // 즉, 현재 시간 이전에 작업이 끝나는 경우
+            // 작업 대기열에 아무런 작업이 없다면 바로 다음 작업을 시작하면 됩니다.
+            
+            // 만약 queue 에 아직 아무리되지 못한 작업이 남아 있다면
+            // 해당 작업을 마무리를 지어야 합니다.
+            // completeTime 에 queue 에 있는 작업이 걸리는 시간을 더함으로써 
+            // 로직을 작성할 수 있습니다.
+            
+            // 대기열에 작업이 남아있고, 작업완료시간이 현재 시간보다 더 적은경우
+            // 계속 작업을 진행해야 합니다.
+            // 반대로 대기열에 작업이 존재하지 않거나
+            // 작업완료까지 걸리는 시간이 현재시간보다 더 커진 경우
+            // 대기열에 다음 작업을 추가해야합니다.
+            
+            while(completeTime <= currentTime && !queue.isEmpty()) {
                 completeTime += queue.poll();
             }
-            if(completeTime <= curTime) {
-                completeTime = curTime;
+            
+            // 만일 대기열에 아무런 작업이 존재하지 않아서 위 while 문을 거치지 않은 경우
+            // 혹은 작업해야하는 시간이, 현재 시간보다 더 커진 경우라서 이번 idx 에서는 작업이 불가능한 경우입니다.
+            // currentTime 은 반복문 처음에 k 를 더함으로서 변화하고,
+            // 작업시간이 더 커져버린 경우는, 다음 idx 에서 while 문에서 처리됩니다.
+            // 따라서 예외는 while 문에서 처리하지 못한 상황일 것 입니다.
+            
+            // 어떤 예외사항이 있을 수 있을까요?
+            // 작업이 다 끝나서 대기열은 비어있지만
+            // 이전 idx 에서 completeTime 과 currentTime 이 기가막히게 동일해지는 경우가 있을 수 있습니다.
+            // 하지만 이것은 로직이 그렇게 직관적이지 않기 때문에 곧바로 떠오르기가 어렵습니다.
+            // 이미 방법을 알고 푸는 것이 아니라면 이걸 바로 생각해낼 수 있을까요?
+        
+            if (completeTime <= currentTime) {
+                completeTime = currentTime;
             }
+            
+            // 새로운 order 는 곧 바로 작업할 수 없고, 대기열로 직행하게 됩니다.
+            
             queue.offer(menu[order[idx]]);
-            int wait = (completeTime > curTime ? 1 : 0) + queue.size();
+            
+            // 여기까지 온 경우, queue 에는 반드시 대기중인 작업이 존재합니다.
+            // 이 때, 작업까지 걸리는 시간이 idx * k 보다 크다면, 반드시 다음 idx 에 해당하는
+            // 고객은 기다려야 합니다. 
+        
+            int wait = (completeTime > currentTime ? 1 : 0) + queue.size();
+            
             answer = Math.max(answer, wait);
+            
         }
+        
         return answer;
     }
 }
@@ -86,6 +139,37 @@ class Solution {
             answer = Math.max(answer, q.size());
             time++;
         }
+        return answer;
+    }
+}
+```
+
+## sol3
+
+```java
+class Solution {
+    public int solution(int[] menu, int[] order, int k) {
+        int answer = 0;
+        int index = 0;
+        int waiting = 0;
+        int[] endTime = new int[order.length];
+
+        for (int i = 0; i < order.length; i++) {
+            while (index < i && endTime[index] <= k * i) {
+                index++;
+                waiting--;
+            }
+
+            waiting++;
+            if (i == 0) {
+                endTime[i] = menu[order[0]];
+            } else {
+                endTime[i] = Math.max(k * i, endTime[i - 1]) + menu[order[i]];
+            }
+
+            answer = Math.max(answer, waiting);
+        }
+
         return answer;
     }
 }
