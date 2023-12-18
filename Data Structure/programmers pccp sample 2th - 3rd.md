@@ -146,31 +146,114 @@ class Solution {
 
 ## sol3
 
+> 제일 깔끔한 것 같다.
+
 ```java
 class Solution {
     public int solution(int[] menu, int[] order, int k) {
         int answer = 0;
-        int index = 0;
+        int index = 0; // 작업 인덱스
         int waiting = 0;
+        
+        // 작업이 종료되는 시간을 배열로 관리한다.
+        // queue 대신 배열을 이용한다.
         int[] endTime = new int[order.length];
 
+        // order 기준 반복
         for (int i = 0; i < order.length; i++) {
+            System.out.println("for 문 실행");
+            System.out.println("index: " + index);
+            System.out.println("waiting: " + waiting);
+            
+            
+            System.out.println("####################");
+            
             while (index < i && endTime[index] <= k * i) {
                 index++;
                 waiting--;
             }
 
             waiting++;
+            
             if (i == 0) {
                 endTime[i] = menu[order[0]];
             } else {
                 endTime[i] = Math.max(k * i, endTime[i - 1]) + menu[order[i]];
             }
-
+            
+            System.out.println("endTime: " + endTime[i]);
+            
             answer = Math.max(answer, waiting);
         }
 
         return answer;
+    }
+}
+```
+
+```bash
+for 문 실행  
+index: 0  
+waiting: 0  
+####################  
+endTime: 12  
+for 문 실행  
+index: 0  
+waiting: 1  
+####################  
+endTime: 42  
+for 문 실행  
+index: 0  
+waiting: 2  
+####################  
+endTime: 47  
+for 문 실행  
+index: 1  
+waiting: 2  
+####################  
+endTime: 59
+```
+
+## sol4
+
+```java
+public class Solution {
+    private static class Order {
+        public final int time;
+        public final int duration;
+
+        public Order(int time, int duration) {
+            this.time = time;
+            this.duration = duration;
+        }
+    }
+
+    public int solution(int[] menu, int[] order, int k) {
+        Order[] orders = new Order[order.length];
+        for (int i = 0; i < order.length; i++) {
+            orders[i] = new Order(k * i, menu[order[i]]);
+        }
+
+        int max = 0;
+
+        int time = 0;
+        int end = 0;
+        for (int start = 0; start < orders.length; start++) {
+            Order o = orders[start];
+            if (time < o.time) {
+                time = o.time;
+            }
+
+            time += o.duration;
+            while (end < orders.length && orders[end].time < time) {
+                end++;
+            }
+            int count = end - start;
+            if (count > max) {
+                max = count;
+            }
+        }
+        return max;
     }
 }
 ```
