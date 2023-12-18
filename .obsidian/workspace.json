@@ -18,8 +18,33 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "817f1ec84cd9e959",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SQL/SQL Index.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6b5ab635022b8de4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SQL/SQL For Web Developers - Complete Database Course.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -85,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md.md",
+                "file": "SQL/SQL For Web Developers - Complete Database Course.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md.md",
+                "file": "SQL/SQL For Web Developers - Complete Database Course.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md.md"
+                "file": "SQL/SQL For Web Developers - Complete Database Course.md"
               }
             }
           }
@@ -149,13 +174,16 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "41f59a6a9e12e5d2",
+  "active": "6b5ab635022b8de4",
   "lastOpenFiles": [
+    "SQL/SQL Index.md",
+    "SQL/SQL For Web Developers - Complete Database Course.md",
+    "README.md.md",
+    "SQL",
     "images/Pasted image 20231218202224.png",
     "Data Structure/Data Structure Index.md",
     "Data Structure/programmers pccp sample 2th - 3rd.md",
     "Data Structure/Deque.md",
-    "README.md.md",
     "programmers pccp sample 2th - 3rd.md",
     "images",
     "프로그래머스 모의고사 2회 3번문제.md",
