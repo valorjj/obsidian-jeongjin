@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "programmers pccp sample 2th - 3rd.md",
+                "file": "자료구조/programmers pccp sample 2th - 3rd.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md.md",
+                "file": "자료구조/Deque.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md.md",
+                "file": "자료구조/Deque.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md.md",
+                "file": "자료구조/Deque.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md.md"
+                "file": "자료구조/Deque.md"
               }
             }
           }
@@ -164,11 +164,12 @@
   },
   "active": "d13c21ea176de0bc",
   "lastOpenFiles": [
-    "programmers pccp sample 2th - 3rd.md",
-    "README.md.md",
+    "자료구조/programmers pccp sample 2th - 3rd.md",
     "자료구조/Deque.md",
+    "README.md.md",
+    "images",
     "프로그래머스 모의고사 2회 3번문제.md",
-    "Pasted image 20231218202224.png",
+    "images/Pasted image 20231218202224.png",
     "프로그래머스 모의고사 2회 3번문제번문제.md",
     "자료구조/자료구조.md",
     "자료구조"
