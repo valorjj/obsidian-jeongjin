@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "d13c21ea176de0bc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "README.md.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "programmers pccp sample 2th - 3rd.md",
+                "file": "README.md.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "programmers pccp sample 2th - 3rd.md",
+                "file": "README.md.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "programmers pccp sample 2th - 3rd.md"
+                "file": "README.md.md"
               }
             }
           }
@@ -149,10 +162,11 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "41f59a6a9e12e5d2",
+  "active": "d13c21ea176de0bc",
   "lastOpenFiles": [
-    "자료구조/Deque.md",
     "programmers pccp sample 2th - 3rd.md",
+    "README.md.md",
+    "자료구조/Deque.md",
     "프로그래머스 모의고사 2회 3번문제.md",
     "Pasted image 20231218202224.png",
     "프로그래머스 모의고사 2회 3번문제번문제.md",
