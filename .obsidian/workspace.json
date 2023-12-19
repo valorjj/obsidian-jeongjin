@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithm Problem Solving/Programmers/pccp_sample_2_4.md",
+                "file": "Algorithm Problem Solving/Algorithm Problem Solving Index.md",
                 "mode": "source",
                 "source": false
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithm Problem Solving/Programmers/pccp_sample_2_4.md",
+                "file": "Algorithm Problem Solving/Algorithm Problem Solving Index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithm Problem Solving/Programmers/pccp_sample_2_4.md",
+                "file": "Algorithm Problem Solving/Algorithm Problem Solving Index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithm Problem Solving/Programmers/pccp_sample_2_4.md"
+                "file": "Algorithm Problem Solving/Algorithm Problem Solving Index.md"
               }
             }
           }
@@ -201,17 +201,17 @@
   "active": "9a54b012201f6098",
   "lastOpenFiles": [
     "Algorithm Problem Solving/Programmers/Programmers Algorithm Problem.md",
+    "Algorithm Problem Solving/Algorithm Problem Solving Index.md",
+    "Data Structure/Data Structure Index.md",
+    "Data Structure/Deque.md",
+    "Algorithm Problem Solving/Programmers/pccp_sample_2_4.md",
     "Python/Grammar I need to know.md",
     "Python/Python Index.md",
-    "Algorithm Problem Solving/Programmers/pccp_sample_2_4.md",
     "Algorithm Problem Solving/Programmers/pccp_sample_2_3.md",
     "Meditation/2023-12-19.md",
     "Python",
     "Meditation",
-    "Algorithm Problem Solving/Algorithm Problem Solving Index.md",
     "Algorithm Problem Solving/Programmers",
-    "Data Structure/Deque.md",
-    "Data Structure/Data Structure Index.md",
     "README.md.md",
     "Algorithm Problem Solving",
     "SQL/SQL For Web Developers - Complete Database Course.md",
