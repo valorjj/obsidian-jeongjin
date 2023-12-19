@@ -11,4 +11,4 @@
 
 ## 관련 문제
 
-[[programmers pccp sample 2th - 3rd]]
+[[pccp_sample_2_3]]

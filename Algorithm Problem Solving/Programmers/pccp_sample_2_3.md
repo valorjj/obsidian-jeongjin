@@ -1,5 +1,4 @@
 
-
 > [source](https://school.programmers.co.kr/learn/courses/15009/lessons/121689)
 
 ## sol 1
