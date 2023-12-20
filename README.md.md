@@ -1,2 +1,7 @@
 [[Data Structure Index]]
 [[SQL Index]]
+[[Machine Learning Index]]
+[[Excel Index]]
+[[Network Study Index]]
+[[Python Index]]
+

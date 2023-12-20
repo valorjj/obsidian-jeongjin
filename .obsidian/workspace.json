@@ -61,14 +61,62 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithm Problem Solving/Algorithm Problem Solving Index.md",
+                "file": "Algorithm Problem Solving/Programmers/pccp_sample_2_3.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0f59fd56b247e700",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Network Study/Network Study Index.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "351e932cb378323f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Network Study/OSI 7 layers.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "93fcbdcabba91829",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Excel/Excel Index.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b3f3108711556aa6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Excel Shortcut.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -134,7 +182,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithm Problem Solving/Algorithm Problem Solving Index.md",
+                "file": "Excel Shortcut.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +199,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithm Problem Solving/Algorithm Problem Solving Index.md",
+                "file": "Excel Shortcut.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +222,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithm Problem Solving/Algorithm Problem Solving Index.md"
+                "file": "Excel Shortcut.md"
               }
             }
           }
@@ -198,24 +246,32 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "9a54b012201f6098",
+  "active": "b3f3108711556aa6",
   "lastOpenFiles": [
-    "Algorithm Problem Solving/Programmers/Programmers Algorithm Problem.md",
+    "SQL/SQL For Web Developers - Complete Database Course.md",
+    "SQL/SQL Index.md",
+    "Excel Shortcut.md",
+    "Excel/Excel Index.md",
+    "Algorithm Problem Solving/Programmers/pccp_sample_2_3.md",
+    "README.md.md",
+    "Machine Learning/Machine Learning Index.md",
+    "Machine Learning",
+    "Network Study/OSI 7 layers.md",
+    "Excel",
+    "Network Study/Network Study Index.md",
+    "Network Study",
+    "Algorithm Problem Solving/Programmers/pccp_sample_2_4.md",
     "Algorithm Problem Solving/Algorithm Problem Solving Index.md",
+    "Algorithm Problem Solving/Programmers/Programmers Algorithm Problem.md",
     "Data Structure/Data Structure Index.md",
     "Data Structure/Deque.md",
-    "Algorithm Problem Solving/Programmers/pccp_sample_2_4.md",
     "Python/Grammar I need to know.md",
     "Python/Python Index.md",
-    "Algorithm Problem Solving/Programmers/pccp_sample_2_3.md",
     "Meditation/2023-12-19.md",
     "Python",
     "Meditation",
     "Algorithm Problem Solving/Programmers",
-    "README.md.md",
     "Algorithm Problem Solving",
-    "SQL/SQL For Web Developers - Complete Database Course.md",
-    "SQL/SQL Index.md",
     "SQL",
     "images/Pasted image 20231218202224.png",
     "programmers pccp sample 2th - 3rd.md",
