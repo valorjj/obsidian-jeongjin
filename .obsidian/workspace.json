@@ -109,7 +109,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Excel Shortcut.md",
+                "file": "Meditation/2023-12-22.md",
                 "mode": "source",
                 "source": false
               }
@@ -182,7 +182,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Excel Shortcut.md",
+                "file": "Meditation/2023-12-22.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -199,7 +199,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Excel Shortcut.md",
+                "file": "Meditation/2023-12-22.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -222,7 +222,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Excel Shortcut.md"
+                "file": "Meditation/2023-12-22.md"
               }
             }
           }
@@ -248,12 +248,16 @@
   },
   "active": "b3f3108711556aa6",
   "lastOpenFiles": [
+    "README.md.md",
+    "Meditation/2023-12-22.md",
+    "Node.js/Node.js Index.md",
+    "Excel Tips.md",
+    "Node.js",
+    "Excel/Excel Index.md",
+    "Excel Shortcut.md",
     "SQL/SQL For Web Developers - Complete Database Course.md",
     "SQL/SQL Index.md",
-    "Excel Shortcut.md",
-    "Excel/Excel Index.md",
     "Algorithm Problem Solving/Programmers/pccp_sample_2_3.md",
-    "README.md.md",
     "Machine Learning/Machine Learning Index.md",
     "Machine Learning",
     "Network Study/OSI 7 layers.md",
@@ -278,7 +282,6 @@
     "images",
     "프로그래머스 모의고사 2회 3번문제.md",
     "Pasted image 20231218202224.png",
-    "프로그래머스 모의고사 2회 3번문제번문제.md",
-    "Data Structure"
+    "프로그래머스 모의고사 2회 3번문제번문제.md"
   ]
 }
