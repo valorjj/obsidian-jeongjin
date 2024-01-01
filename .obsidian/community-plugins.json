@@ -11,5 +11,7 @@
   "tag-wrangler",
   "obsidian-linter",
   "highlightr-plugin",
-  "cm-editor-syntax-highlight-obsidian"
+  "cm-editor-syntax-highlight-obsidian",
+  "dataview",
+  "obsidian-tasks-plugin"
 ]

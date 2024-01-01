@@ -5,3 +5,4 @@
 [[Network Study Index]]
 [[Python Index]]
 [[Node.js Index]]
+[[Kafka Index]]

@@ -1,8 +1,9 @@
 {
   "accentColor": "",
-  "cssTheme": "Things",
+  "cssTheme": "Minimal",
   "interfaceFontFamily": "Inter",
   "textFontFamily": "Inter",
   "monospaceFontFamily": "Inter",
-  "theme": "obsidian"
+  "theme": "obsidian",
+  "baseFontSize": 16
 }
