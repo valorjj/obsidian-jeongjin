@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python/Grammar I need to know.md",
+                "file": "Project/Youtube/Spring Boot + React.js(ts) + MySQL.md",
                 "mode": "source",
                 "source": false
               }
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Python/Grammar I need to know.md",
+                "file": "Project/Youtube/Spring Boot + React.js(ts) + MySQL.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Python/Grammar I need to know.md",
+                "file": "Project/Youtube/Spring Boot + React.js(ts) + MySQL.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Python/Grammar I need to know.md"
+                "file": "Project/Youtube/Spring Boot + React.js(ts) + MySQL.md"
               }
             }
           }
@@ -162,6 +162,12 @@
   },
   "active": "2a5215088623cc89",
   "lastOpenFiles": [
+    "Algorithm Problem Solving/Programmers/programmers_42577.md",
+    "Project/Youtube/Spring Boot + React.js(ts) + MySQL.md",
+    "Project/Youtube",
+    "Project",
+    "Algorithm Problem Solving/Programmers/programmers_42576.md",
+    "Python/Grammar I need to know.md",
     "Machine Learning/Machine Learning Index.md",
     "Excel/Excel Index.md",
     "Excel/Excel Shortcut.md",
@@ -170,7 +176,6 @@
     "Daily Plan/daily_2023_12_25.md",
     "BG3/전술가 난이도.md",
     "Algorithm Problem Solving/Programmers/programmers_242261.md",
-    "Algorithm Problem Solving/Programmers/programmers_42576.md",
     "Algorithm Problem Solving/Programmers/Programmers Algorithm Problem.md",
     "Algorithm Problem Solving/Programmers/pccp_sample_2_4.md",
     "Machine Learning for Everybody – Full Course.md",
@@ -193,14 +198,9 @@
     "Node.js/Node.js Index.md",
     "Meditation/2023-12-22.md",
     "Node.js",
-    "SQL/SQL For Web Developers - Complete Database Course.md",
-    "Algorithm Problem Solving/pccp_sample_2_3.md",
     "Machine Learning",
-    "Network Study/OSI 7 layers.md",
     "Excel",
     "Network Study",
-    "Python",
-    "Meditation",
     "images/Pasted image 20231218202224.png",
     "Pasted image 20231218202224.png"
   ]
